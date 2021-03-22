@@ -1,0 +1,27 @@
+//Genesis Paola 
+//Martinez Najera
+//6-W
+
+void main(){
+//Mostrar el numero mayor de dos numeros, teniendo en cuenta que pueden ser iguales
+
+int a=100;
+int b=20;
+
+
+if(a>b){
+print("Este numero $a es mayor" );
+}
+else{
+if(b>a){
+print("Este numero $b es mayor");
+}
+else{
+if(a==b){
+print("Los dos numeros son iguales");
+}
+}
+}
+String res= a>b ? "Numero $a es mayor" : "Numero $b es mayor";
+print(res);
+}
